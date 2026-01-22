@@ -21,4 +21,10 @@ def test_for_non_integers():
         fizzbuzz(3.0)
     with pytest.raises(TypeError):
         fizzbuzz(None)
+
+def test_for_negative_integers_and_zero():
+    assert fizzbuzz(-3)=="Fizz"
+    assert fizzbuzz(-25)=="Buzz"
+    assert fizzbuzz(-45)=="FizzBuzz"
+    assert fizzbuzz(0)=="FizzBuzz"
     
