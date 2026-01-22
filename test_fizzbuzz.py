@@ -8,5 +8,8 @@ def test_smoke_test():
 def test_return_fizz_multiple_of_3():
     assert fizzbuzz(3)=="Fizz"
 
+def test_return_buzzz_multiple_of_5():
+    assert fizzbuzz(5)=="Buzz"
+
 
     
